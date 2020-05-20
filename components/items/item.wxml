@@ -1,0 +1,6 @@
+<view class="cenLis">
+    <view class="left">
+      <view class="iconfont {{icon}}"></view><view>{{title}}</view>
+    </view>
+    <view class="ri">{{num}}</view>
+</view>

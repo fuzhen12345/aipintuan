@@ -31,23 +31,9 @@
     </view>
 </view>
 <view class="center">
-    <view class="cenLis">
-        <view class="left">
-            <view class="iconfont icon-lianxikefu"></view><view>联系客服</view>
-        </view>
-        <view class="ri">400-618-4000</view>
-    </view>
-    <view class="cenLis">
-        <view class="left">
-            <view class="iconfont icon-yijianfankui"></view><view>意见反馈</view>
-        </view>
-    </view>
-    <view class="cenLis">
-        <view class="left">
-            <view class="iconfont icon-ziyuan"></view><view>当前版本</view>
-        </view>
-        <view class="ri">v4.1.1</view>
-    </view>   
+    <item title="联系客服" num="400-618-5000" icon="icon-lianxikefu"></item>
+    <item title="意见反馈" num="" icon="icon-yijianfankui"></item>
+    <item title="当前版本" num="v4.12" icon="icon-ziyuan"></item> 
 </view>
 <view>
     更新于202005021141

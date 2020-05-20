@@ -1,0 +1,23 @@
+@import "/pages/style/icon.wxss";
+.cenLis {
+  padding: 24rpx 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #ccc;
+}
+.cenLis .left {
+  display: flex;
+  align-items: center;
+  margin-left: 15rpx;
+}
+.cenLis .left .iconfont {
+  font-size: 52rpx;
+}
+.cenLis .left view {
+  margin-left: 20rpx;
+  font-size: 32rpx;
+}
+.cenLis .ri {
+  margin-right: 20rpx;
+  font-size: 32rpx;
+}
