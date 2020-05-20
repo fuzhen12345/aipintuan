@@ -1,0 +1,28 @@
+<view class="nav">
+    <view>搜索</view>
+</view>
+<swiper indicator-dots="true" autoplay="true" circular="true">
+    <swiper-item wx:for="{{swiper_list}}" wx:key="index">
+        <image src="{{item.image_src}}" mode="widthFix"></image>
+    </swiper-item>
+</swiper>
+
+<view class="cat">
+    <view class="catItems" wx:for="{{catItems}}" wx:key="index">
+        <image src="{{item.image_src}}"></image>
+    </view>
+</view>
+<view class="finsh">
+    <view class="finshTop">{{floorData.floor_title.name}}</view>
+    <view class="ul">
+        <view class="li" wx:for="{{floorData.product_list}}" wx:key="index">
+            <image src="{{item.image_src}}"></image>
+        </view>
+    </view>
+    <view class="ul">
+        <view class="li" wx:for="{{floorData.product_list}}" wx:key="index">
+            <image src="{{item.image_src}}"></image>
+        </view>
+    </view>
+</view>
+  

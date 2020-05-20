@@ -1,0 +1,93 @@
+page{
+    background-color: rgb(235, 231, 231);
+}
+.login{
+    height: 360rpx;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .my{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        position: relative;
+       .myImg{
+           position: absolute;
+            width: 150rpx;
+            height: 150rpx;
+            border-radius: 50%;
+            overflow: hidden;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 80rpx;
+            image{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .nickName{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 240rpx;
+            color: #fff;
+        } 
+        .my-bg{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            filter: blur(14rpx);
+            image{
+                width: 100%;
+                height: 100%; 
+            }
+        }
+    }
+    
+    
+}
+.cont{
+    padding: 28rpx 0;
+    background-color: #fff;
+    margin: 24rpx 0;
+    display: flex;
+    justify-content: space-around;
+    .contItem{
+        text-align: center;
+        .iconfont{
+            font-size: 60rpx;
+        }
+        .p{
+            font-size: 32rpx;
+        }
+    }
+}
+.center{
+    height: 460rpx;
+    background-color: #fff;
+    .cenLis{
+        padding: 24rpx 0;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1rpx solid #ccc;
+        .left{
+            display: flex;
+            align-items: center;
+            margin-left: 15rpx;
+            .iconfont{
+                font-size: 52rpx;
+            }
+            view{
+                margin-left: 20rpx;
+                font-size: 32rpx;
+            }
+            
+        }
+        .ri{
+            margin-right: 20rpx;
+            font-size: 32rpx;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.nav {
+  background-color: #f93553;
+  height: 120rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0rpx;
+  z-index: 9999;
+}
+.nav view {
+  width: 90%;
+  height: 100rpx;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  font-size: 38rpx;
+  justify-content: center;
+  align-items: center;
+}
+swiper {
+  margin-top: 120rpx;
+}
+swiper swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+.cat {
+  width: 100%;
+  height: 160rpx;
+  display: flex;
+}
+.cat view {
+  flex: 1;
+  justify-content: space-between;
+  height: 100%;
+}
+.cat view image {
+  width: 100%;
+  height: 100%;
+}
+.finsh {
+  margin-top: 30rpx;
+}
+.finsh .finshTop {
+  margin-left: 10rpx;
+  color: pink;
+}
+.finsh .ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.finsh .ul .li {
+  width: 31%;
+  height: 180rpx;
+  margin-top: 10rpx;
+}
+.finsh .ul .li image {
+  width: 100%;
+  height: 100%;
+}
